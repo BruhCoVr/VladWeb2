@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: white; 
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+
+a {
+  color: white; 
+  text-decoration: none; 
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
